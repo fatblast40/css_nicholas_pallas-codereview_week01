@@ -1,14 +1,33 @@
 header {
-	background-color: #3C5A98;
+	
 	color: white;
 	clear:both;
-    padding-top:.5em;
+
 }
-header#nav {
-	clear:both;
+/*properties below apply only to nav bar in home page*/
+#menu ul li {
+    float: left;
+    color: white;
+    padding: 10px;
+    display: inline;
+    background-color: #3C5A98;
+}
+#status {
+	
 }
 
 
+.menu {
+    width: 75%;
+    float: left;
+}
+.main {
+    width: 75%;
+    float: left;
+}
+.feed {
+	width: 60%;
+}
 header a:link {
     color: white;
 }
@@ -18,8 +37,22 @@ header a:visited {
 header a:hover {
     color: white
 }
+#leftbar {
+	float:left;
+	padding-right: 15px;
+}
 
+#newsfeed {
+	float:right;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
 
+/*make the iframes appear to be all part of one page*/
+iframe {
+	border: 0px
+}
 main {
 	background-color: white;
 	color: #3C5A98;
