@@ -2,7 +2,7 @@
 <html lang ="en">
 
 <head>
-	<title>Week 1 Code Review</title>
+	<title>NickyBook</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
@@ -16,8 +16,8 @@
 					<a href="#home" title="Home">Home</a>
 				</li>
 				<li>
-					<form action="" name="search" width="30%">
-						<input type="text" name="search" placeholder="Search">
+					<form action="" name="search" cols="40">
+						<input type="text" name="search" rows="4" cols="40" placeholder="Search">
 					</form>
 				</li>
 				<li>
@@ -40,7 +40,7 @@
 
 	<div id="leftbar">
 		<a href="#profile" title="profile">Your Profile</a><br><br>
-		<u>Favorites:</u><br>
+		<u>Favorites</u>:<br>
 		<a href="#"</a>CodeFactory</a><br>
 		<a href="#"</a>Videos</a><br>
 		<a href="#"</a>Photos</a><br>
@@ -57,8 +57,8 @@
 	</aside>
 	<main>
 		<div id="poststatus">
-			What would you like to share today?
-			<form id="status" action="" name="search" width="300">
+			<i>What would you like to share today?</i>
+			<form id="status" action="" name="search">
 				<textarea rows="4" cols="40" placeholder="Update your status"></textarea><br>
 				<input type="submit" name="new_post" value="Post new status">
 			</form>
@@ -66,16 +66,20 @@
 
 		<div id="newsfeed">
 			<article class="feed">
-				<h4>
+				<h3>
 					Another Donald Trump Article.
-				</h4>
-				Reeling from a week that included the firing of his national security adviser, the withdrawal of a Cabinet nominee and persistent questions over contacts between his campaign and Russia, Trump is aiming to regain control of his nascent administration by putting himself back in the spotlight.<br>
+				</h3>
+				<figure class="newspic">
+					<img src="images/trump.jpg" alt="trump" width=300 height=200>
+					<figcaption>An idiot politician.</figcaption>
+				</figure>
+				<p>Reeling from a week that included the firing of his national security adviser, the withdrawal of a Cabinet nominee and persistent questions over contacts between his campaign and Russia, Trump is aiming to regain control of his nascent administration by putting himself back in the spotlight.</p>
 				<a href="http://edition.cnn.com/2017/02/17/politics/donald-trump-politics-campaign/index.html">Click to read full article</a>
 			</article>
-			<h4>
+			<h3>
 				Funny Cat Videos
-			</h4>
-			<figure>
+			</h3>
+			<figure class="feed">
 				<iframe width="400" height="250" src="https://www.youtube.com/embed/5dsGWM5XGdg?ecver=1" frameborder="0" allowfullscreen></iframe>
 			</figure>
 			<article class="feed">
@@ -86,7 +90,7 @@
 				<h4>
 					Irrelevant Sports News
 				</h4>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum libero reprehenderit quod voluptatibus optio fugit, expedita quam reiciendis dolore neque nemo tempora commodi odit voluptatem consequuntur! Sapiente, reiciendis, molestiae. Amet?
+				<p>NFL spokesman Brian McCarthy told NFL.com the league will look into the matter. Revis faces the possibility of discipline from the league under the NFL's personal conduct policy. The Jets confirmed to NFL.com they are aware of the incident.</p>
 				<a href="http://www.espn.com">Click to read full article</a>
 			</article>
 		</div>

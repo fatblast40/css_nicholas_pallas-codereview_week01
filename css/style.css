@@ -1,52 +1,81 @@
 header {
 	
 	color: white;
-	clear:both;
+	clear: both;
 
 }
 /*properties below apply only to nav bar in home page*/
 #menu ul li {
-    float: left;
-    color: white;
-    padding: 10px;
-    display: inline;
-    background-color: #3C5A98;
+	float: left;
+	color: white;
+	padding: 10px;
+	display: inline;
+	text-align: center;
+	width: 150px;
+	background-color: #3C5A98;
 }
+
+/*menu background color is blue and it overrides the white background color for the rest of the document*/
+
+/*Colorpicker chrome extension used to source 3C5A98 from facebook*/
 #status {
 	
 }
 
+/*css style shadow on the article h3*/
+h3 {
+	text-shadow: 1px 1px;
+}
 
 .menu {
-    width: 75%;
-    float: left;
+	width: 75%;
+	float: left;
 }
 .main {
-    width: 75%;
-    float: left;
+	width: 75%;
+	float: left;
 }
 .feed {
 	width: 60%;
 }
 header a:link {
-    color: white;
+	color: white;
 }
 header a:visited {
-    color: white;
+	color: white;
 }
+
+/*pseudo class below*/
 header a:hover {
-    color: white
+	color: red
 }
 #leftbar {
 	float:left;
 	padding-right: 15px;
 }
+.feed {
+	border: 5px solid;
+	border-color: 3C5A98;
+	padding: 2px 10px 5px 10px;
+
+}
+
+/*pseudo element below*/
+p::first-letter {
+	font-size: x-large;
+}
+
+#newspic {
+	float: left;
+
+}
 
 #newsfeed {
-	float:right;
 	margin-left: 5px;
 	margin-bottom: 20px;
 	padding: 10px;
+	width: 700px;
+	float: left;
 }
 
 /*make the iframes appear to be all part of one page*/
@@ -59,11 +88,11 @@ main {
 }
 
 main a:link {
-		color: #3C5A98;
+	color: #3C5A98;
 
-aside {
-	float: left;
-	border: 1px solid red;
-}
+	aside {
+		float: left;
+		border: 1px solid red;
+	}
 
 }
