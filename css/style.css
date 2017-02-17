@@ -1,8 +1,13 @@
 header {
 	background-color: #3C5A98;
 	color: white;
-	float: top;
+	clear:both;
+    padding-top:.5em;
 }
+header#nav {
+	clear:both;
+}
+
 
 header a:link {
     color: white;
@@ -22,19 +27,10 @@ main {
 
 main a:link {
 		color: #3C5A98;
+
+aside {
+	float: left;
+	border: 1px solid red;
 }
-.level2 {
-	margin-left: 5px;
-}
-.level3 {
-	margin-left: 30px;
-}
-.level4 {
-	margin-left: 60px;
-}
-.level5 {
-	margin-left: 100px;
-}
-#h3one {
-	background-color: yellow;
+
 }
